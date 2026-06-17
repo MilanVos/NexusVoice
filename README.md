@@ -4,8 +4,6 @@ Real time stem vertaler voor Nederlands ↔ Duits — speciaal ontworpen voor ge
 
 Je spreekt Nederlands, de ander hoort Duits. De ander spreekt Duits, jij ziet de Nederlandse vertaling op je scherm.
 
-![NexusVoice Screenshot](https://i.imgur.com/placeholder.png)
-
 ---
 
 ## ✨ Features
