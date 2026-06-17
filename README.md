@@ -1,6 +1,6 @@
 # NexusVoice 🇳🇱 ↔ 🇩🇪
 
-Real-time stem vertaler voor Nederlands ↔ Duits — speciaal ontworpen voor gesprekken via Discord of andere voip-apps.
+Real time stem vertaler voor Nederlands ↔ Duits — speciaal ontworpen voor gesprekken via Discord of andere voip-apps.
 
 Je spreekt Nederlands, de ander hoort Duits. De ander spreekt Duits, jij ziet de Nederlandse vertaling op je scherm.
 
@@ -18,16 +18,7 @@ Je spreekt Nederlands, de ander hoort Duits. De ander spreekt Duits, jij ziet de
 - 🎙 **Stemkeuze** — meerdere mannelijke en vrouwelijke Azure neural voices
 - 🌙 **Donker thema** — volledige dark UI
 
----
 
-## 🧰 Vereisten
-
-- Windows 10 of 11 (x64)
-- [.NET 8 Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
-- [VB-Cable Virtual Audio Driver](https://vb-audio.com/Cable/) (gratis)
-- Azure Cognitive Services — Speech service (gratis tier: 5 uur/maand)
-
----
 
 ## 🚀 Setup
 
@@ -52,8 +43,6 @@ Je spreekt Nederlands, de ander hoort Duits. De ander spreekt Duits, jij ziet de
 
 ---
 
-### Stap 3 — Discord instellen
-
 1. Open Discord → **Gebruikersinstellingen** (tandwiel links onder)
 2. Ga naar **Spraak & Video**
 3. Stel in:
@@ -62,23 +51,7 @@ Je spreekt Nederlands, de ander hoort Duits. De ander spreekt Duits, jij ziet de
 
 > ⚠️ Let op: Invoer = `CABLE Output`, uitvoer = jouw echte headset
 
----
 
-### Stap 4 — NexusVoice bouwen of downloaden
-
-**Downloaden (aanbevolen):**
-Ga naar [Releases](../../releases) en download de nieuwste `.exe`.
-
-**Zelf bouwen:**
-```bash
-git clone https://github.com/jouwusername/NexusVoice.git
-cd NexusVoice
-dotnet run --project NexusVoice.csproj
-```
-
----
-
-### Stap 5 — NexusVoice instellingen
 
 Start de app → klik op **⚙ Instellingen** en vul in:
 
@@ -120,17 +93,3 @@ Duitser (Discord) ──► Jouw headset ──► Loopback capture ──► Az
                                                                           NL tekst op scherm
 ```
 
----
-
-## 📦 Gebruikte technologieën
-
-- [.NET 8 / WPF](https://github.com/dotnet/wpf)
-- [Azure Cognitive Services Speech SDK](https://learn.microsoft.com/en-us/azure/ai-services/speech-service/)
-- [NAudio](https://github.com/naudio/NAudio) — audio device management & loopback capture
-- [Newtonsoft.Json](https://www.newtonsoft.com/json)
-
----
-
-## 📄 Licentie
-
-MIT License — vrij te gebruiken, aanpassen en distribueren.
